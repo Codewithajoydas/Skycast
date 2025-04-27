@@ -1,12 +1,64 @@
-# React + Vite
+Of course! Here's the pure `README.md` code:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Skycast ☁️🌞
 
-Currently, two official plugins are available:
+Get real-time weather at your current location with a dynamic background based on the weather condition.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- 📍 Detects your location automatically
+- 🌤️ Shows real-time weather information (Temperature, Condition, City)
+- 🎨 Changes background based on the weather
+- 🚀 Fast and lightweight React app
 
-## Expanding the ESLint configuration
+## Demo
+![WeatherNow Screenshot]()
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation
+
+```bash
+git clone https://github.com/yourusername/weathernow.git
+cd weathernow
+npm install
+npm start
+```
+
+## Technologies Used
+- React
+- OpenWeatherMap API
+- HTML5 Geolocation
+- CSS3
+
+## Setup API Key
+1. Create a free account at [OpenWeatherMap](https://openweathermap.org/).
+2. Get your API key.
+3. Replace the `appid` value inside the code with your API key.
+
+```javascript
+const newUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=YOUR_API_KEY&units=metric`;
+```
+
+## Folder Structure
+
+```
+/public
+/src
+  ├── App.jsx
+  ├── App.css
+  ├── Hooks/
+  │     └── FetchHook.js
+  ├── utils/
+        └── getBackground.js
+```
+
+## License
+This project is licensed under the MIT License.
+
+---
+Made with ❤️ by @codewithajoydas
+
+---
+
+Done ✅
+
+Would you also like a clean `getBackground.js` update? (it will use better online weather images!) 🚀
+Just say if you want it!
