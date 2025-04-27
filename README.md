@@ -1,4 +1,3 @@
-Of course! Here's the pure `README.md` code:
 
 # Skycast ☁️🌞
 
@@ -11,12 +10,13 @@ Get real-time weather at your current location with a dynamic background based o
 - 🚀 Fast and lightweight React app
 
 ## Demo
-![WeatherNow Screenshot]()
+![image](https://github.com/user-attachments/assets/857bbc6b-44ba-4ac8-872d-aefb3cd67231)
+
 
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/weathernow.git
+git clone https://github.com/codewithajoydas/skycast.git
 cd weathernow
 npm install
 npm start
